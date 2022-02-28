@@ -1,0 +1,24 @@
+{
+    "name": "oizumi-junho/email-php",
+    "description": "Criado para facilitar o envio de e-mail",
+    "type": "library",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [{
+        "name": "Oizumi Junho",
+        "email": "oizumijunho@gmail.com",
+        "role": "Developer"
+    }],
+    "autoload": {
+        "psr-4": {
+            "OizumiJunho\\Email\\": "src/Email"
+        },
+        "files": [
+            "src/Email/Config.php"
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "6.5.4",
+        "php": ">=7.0"
+    }
+}
